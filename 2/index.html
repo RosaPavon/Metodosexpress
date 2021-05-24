@@ -7,12 +7,17 @@
     <title>Document</title>
 </head>
 <body>
+    <div id=div></div>
     <form action="/persona" method="POST">
         <input type="text" name= "nombre" />
         <input type="text" name= "apellido" />
         <input type="text" name= "edad" />
 
-        <button>Enviar</button>
+        <button onclick="enviarInfo">Enviar</button>
+        <button onclick="modificarInfo">Cambiar</button>
+        <button onclick="eliminarInfo">Eliminar</button>
+
+
         </form>
 </body>
 </html>
